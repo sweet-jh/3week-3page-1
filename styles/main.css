@@ -15,7 +15,7 @@ p {
 .header {
 	position: absolute;
 	z-index: 1;
-	width: 100%;
+	width: 1400px;
 	background: rgba(0,0,0,0.1) none repeat scroll
 }
 
