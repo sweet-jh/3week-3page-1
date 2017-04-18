@@ -12,6 +12,13 @@ p {
 	font-weight: normal;
 }
 
+.header {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	background: rgba(0,0,0,0.1) none repeat scroll
+}
+
 ul {
 	list-style: none;
 }
@@ -28,9 +35,14 @@ nav ul {
 
 }
 nav ul li {
-	margin-right: 30px;
 	font-family: 14px;
-	border-right: 1px solid #fff;
+	border-right: 1px solid #6e6e6e;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: white;
+}
+nav ul li.last {
+	border: none;
 }
 
 .first-part {
